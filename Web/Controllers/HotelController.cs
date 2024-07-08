@@ -21,6 +21,7 @@ namespace HotelReservationSystem.Web.Controllers
             if (hotel == null)
             {
                 return NotFound();
+                console.WriteLine("hi");
             }
             return Ok(hotel);
         }
